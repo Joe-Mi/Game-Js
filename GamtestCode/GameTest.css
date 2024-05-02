@@ -1,0 +1,316 @@
+/* Basic layout CSS */ 
+.body{
+      margin: 0;
+      background-color: #d5c9ad;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-template-rows: 140px 1fr 1fr 1fr;
+      
+    gap: 10px;
+    padding: 10px;
+    padding-left: 145px;
+    padding-right: 140px;
+    box-sizing: border-box;
+
+    background-image: url("BackgroundIMGNEW3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d5c9ad;
+}
+
+ .container div{
+    padding: 10px;
+    border: 3px solid #5cfe7d;
+    border-color: #5cfe7d;
+    text-align: center;
+    color: #5cfe7d;
+    backdrop-filter: blur(15px);
+    
+}
+
+.container span{
+    padding: 30px;
+    gap: 30px;
+    margin: 40px;
+    border: 3px solid #5cfe7d;
+    border-color: #5cfe7d;
+    text-align: center;
+    color: #5cfe7d;
+    backdrop-filter: blur(15px);
+}
+
+.p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.footer{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.content-Placeholder{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    background-color:  rgb(48, 49, 66)
+}
+
+/* Start-Up/ Sign-Up/ Log-In/ page CSS */
+.StartUp-OpeningArt{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+    background-color:  rgb(18, 19, 34)
+}
+
+.StartUp-Login{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.StartUp-SignUp{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+/* Home page CSS */
+.Hcontainer{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 140px 1fr 1fr 1fr;
+      
+    gap: 10px;
+    padding: 10px;
+    padding-left: 145px;
+    padding-right: 140px;
+    box-sizing: border-box;
+
+    background-image: url("BackgroundIMGNEW3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d5c9ad;
+
+}
+.Hcontainer div{
+    padding: 10px;
+    border: 3px solid #5cfe7d;
+    border-color: #5cfe7d;
+    text-align: center;
+    color: #5cfe7d;
+    backdrop-filter: blur(15px);
+}
+
+
+.Home-smallL{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.Home-bigL{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    text-align:center;
+}
+
+.Home-smallR{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+}
+
+.Home-bigR{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    background-color:  rgb(48, 49, 66);
+}
+
+/* Leaderboard page CSS */
+.Lcontainer{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-template-rows: 140px 1fr 1fr 1fr;
+      
+    gap: 10px;
+    padding: 10px;
+    padding-left: 145px;
+    padding-right: 140px;
+    box-sizing: border-box;
+
+    background-image: url("BackgroundIMGNEW3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d5c9ad;
+}
+.Lcontainer div{
+    padding: 10px;
+    border: 3px solid #5cfe7d;
+    border-color: #5cfe7d;
+    text-align: center;
+    color: #5cfe7d;
+    backdrop-filter: blur(15px);
+}
+
+
+.Leaderboard-SmallL1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.Leaderboard-SmallL2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.Leaderboard-SmallL3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.Leaderboard-BigL{
+    padding-left: 5px;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.Leaderboard-SmallR{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.Leaderboard-BigR{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/* Game page CSS */
+.GameData{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+/* navbar & Button CSS */
+.navbar{
+    background-color: rgb(55, 51, 75);
+    overflow: hidden;
+}
+
+.navbar a{
+   float: left;
+   color: #5cfe7d;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   
+}
+
+.navbar a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.navbar a:active{
+    background-color: transparent;
+    color: yellow;
+ }
+
+.Gbutton {
+    background-color: rgb(55, 51, 75);
+    border: 3px solid  #5cfe7d;
+    color: whitesmoke;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    font-size: 16px;
+    width: 300px;
+    height: 150;
+  }
+.GCanvas {
+    border: 3px solid #5cfe7d;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table, th, td {
+    border:1px solid #5cfe7d;
+    color: whitesmoke;
+    background-color: rgb(55, 51, 75);
+}
+
+.timer, .errors, .accuracy, 
+.cpm, .wpm { 
+  background-color:  rgb(55, 51, 75); 
+  height: 60px; 
+  width: 70px; 
+  margin: 8px; 
+  padding: 12px; 
+  border-radius: 20%; 
+} 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+          <div class="header">
+            <img src="logo3.png" alt="brand logo">
+            <nav class="navbar">
+              <a href="Startup-Page.html">Start-Up</a>
+              <a href="SignUp.html">Sign-Up</a>
+              <a href="Log-In.html">Log-in</a>
+              <a href="Home-v2.html">Home</a>
+              <a class="active" href="leaderboard.html">Leaderboard</a>
+              <a href="Game.html">Game</a>
+              </nav>
+          </div>
+  
+          <div class="content-Placeholder">
+              <p>Pi speed typing</p>
+              <div class="wpm"> 
+                <div class="header_text">WPM</div> 
+                <div class="curr_wpm">100</div> 
+              </div> 
+              <div class="cpm"> 
+                <div class="header_text">CPM</div> 
+                <div class="curr_cpm">100</div> 
+              </div> 
+              <div class="errors"> 
+                <div class="header_text">Errors</div> 
+                <div class="curr_errors">0</div> 
+              </div> 
+              <div class="timer"> 
+                <div class="header_text">Time</div> 
+                <div class="curr_time">60s</div> 
+              </div> 
+              <div class="accuracy"> 
+                <div class="header_text">% Accuracy</div> 
+                <div class="curr_accuracy">100</div> 
+              </div> 
+            <div class="quote"> 
+              Click on the area below to start the game. 
+            </div> 
+              <textarea class="input_area"
+                placeholder="start typing here..."
+                oninput="processCurrentText()"
+                onfocus="startGame()"> 
+              </textarea> 
+              <button class="restart_btn"
+                onclick="resetValues()"> 
+                Restart 
+              </button> 
+            </div> 
+            
+            <!-- link the JavaScript file here -->
+            <script src="GameTest.js"> 
+            </script> 
+          </div>
+  
+          <div class="GameData">
+            <span>
+            Difficulty: 
+            <progress value="40" max="100"></progress>
+            </span>
+            <span>
+            <button type="button" class="Gbutton"> Pause</button>
+            </span>
+            <span >
+              Game mode:
+              Time: 00:00.00
+             </span>
+  
+          </div>
+  
+        </div>
+      </body>
+</html> 

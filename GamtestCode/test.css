@@ -1,0 +1,93 @@
+
+#Square {
+    position: relative;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+#body {
+    font-family: Arail, Helevetica, sans-serif;
+    text-align: center;
+}
+
+#hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.X2 {
+
+    background-color: #eee4da;
+    color: #727377;
+}
+
+.X4 {
+    background-color: #eee4da;
+    color: #727377;
+}
+
+.X8{
+    background-color: #eee4da;
+    color: #727377;
+}
+
+.X16{
+    background-color: #eee4da;
+    color: #727377;
+}
+.X32{
+    background-color: #eee4da;
+    color: #727377;
+}
+
+.X64{
+    background-color: #eee4da;
+    color: #727377;
+}
+.X128{
+    background-color: lightcyan;
+    color: #727377;
+}
+
+.X256{
+    background-color: lightblue;
+    color: light lightgray;
+}
+
+.X512{
+    background-color: yellow;
+    color: lightgrey;
+}
+
+.X1024{
+    background-color: orange;
+    color: white;
+}
+
+.X2048{
+    background-color: #5cfe7d;
+    color: white;
+}
